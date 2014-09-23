@@ -1,7 +1,7 @@
 var api_key = '66748d6d3d0d36c819560088b9f817d7';  // secret paymill
 var paymill = require('../lib/main')(api_key);
 var nock = require('nock');
-var paymillHost = 'https://api.paymill.de';
+var paymillHost = 'https://api.paymill.com';
 
 QUnit.module('create client');
 
